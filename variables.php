@@ -93,3 +93,43 @@ $testimonialSections = [
     ] 
     
 ];
+
+//our doctors section
+
+
+$ourDoctorsSections = [
+
+    [
+        'image' => 'images/team1.jpg',
+        'name' =>  'Hennry',
+        'text'  =>  'MBBS',
+        'facebookLink'  => '#',
+        'twitterLink'  => '#',
+        'linkedinLink'  => '#',
+        'instagramLink'  => '#'
+
+    ] ,
+    [
+        'image' => 'images/team2.jpg',
+        'name' =>  'Jenni',
+        'text'  =>  'MBBS',
+        'facebookLink'  => '#',
+        'twitterLink'  => '#',
+        'linkedinLink'  => '#',
+        'instagramLink'  => '#'
+
+    ] ,
+    [
+       
+        'image' => 'images/team3.jpg',
+        'name' =>  'Morco',
+        'text'  =>  'MBBS',
+        'facebookLink'  => '#',
+        'twitterLink'  => '#',
+        'linkedinLink'  => '#',
+        'instagramLink'  => '#'
+
+    ] ,
+    
+];
+

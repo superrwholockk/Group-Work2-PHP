@@ -280,9 +280,9 @@
 
   <!-- end treatment section -->
   
-<!-- team section -->
+  <!-- our doctors section -->
 
-<section class="team_section layout_padding">
+  <section class="team_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
@@ -300,8 +300,7 @@
     </div>
   </section>
 
-  <!-- end team section -->
-
+  <!-- our doctors section -->
 
   <!-- Testimonials section -->
   <section class="client_section layout_padding">

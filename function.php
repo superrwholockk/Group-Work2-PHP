@@ -61,23 +61,138 @@ function hospitalTreatment($variable) {
 }
 ?>
 
+<!--Our Doctors-->
 
-<?php 
+<?php
 
-function testimonials_carousel($testimonial, $active=false) {
+function ourDoctorsCarousel($ourDoctors, $active=false) {
 ?>
-    <div class="carousel-item <?php echo $active  ? 'active' : '';?>">
-        <div class="box">
-            <div class="client_info">
-                <div class="client_name">
-                    <h5><?php echo $testimonial['name']; ?></h5>
-                    <h6><?php echo $testimonial['subtitle']; ?></h6>
+    <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="<?php echo $ourDoctors['image'] ?>" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5><?php echo $ourDoctors['name'] ?></h5>
+                <h6><?php echo $ourDoctors['text'] ?></h6>
+                <div class="social_box">
+                  <a href="<?php echo $ourDoctors['facebookLink'] ?>">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['twitterLink'] ?>">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['linkedinLink'] ?>">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['instagramLink'] ?>">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
                 </div>
-                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
             </div>
-            <p><?php echo $testimonial['comment']; ?></p>
-        </div>
-    </div>
+          </div>
 <?php
 }
-?>       
+?>     
+<!--Our Doctors-->
+
+<?php
+
+function ourDoctorsCarousel($ourDoctors, $active=false) {
+?>
+    <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="<?php echo $ourDoctors['image'] ?>" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5><?php echo $ourDoctors['name'] ?></h5>
+                <h6><?php echo $ourDoctors['text'] ?></h6>
+                <div class="social_box">
+                  <a href="<?php echo $ourDoctors['facebookLink'] ?>">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['twitterLink'] ?>">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['linkedinLink'] ?>">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['instagramLink'] ?>">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+<?php
+}
+?> <!--Our Doctors-->
+
+<?php
+
+function ourDoctorsCarousel($ourDoctors, $active=false) {
+?>
+    <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="<?php echo $ourDoctors['image'] ?>" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5><?php echo $ourDoctors['name'] ?></h5>
+                <h6><?php echo $ourDoctors['text'] ?></h6>
+                <div class="social_box">
+                  <a href="<?php echo $ourDoctors['facebookLink'] ?>">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['twitterLink'] ?>">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['linkedinLink'] ?>">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['instagramLink'] ?>">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+<?php
+}
+?> 
+<!--Our Doctors-->
+
+<?php
+
+function ourDoctorsCarousel($ourDoctors, $active=false) {
+?>
+    <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="<?php echo $ourDoctors['image'] ?>" alt="" />
+              </div>
+              <div class="detail-box">
+                <h5><?php echo $ourDoctors['name'] ?></h5>
+                <h6><?php echo $ourDoctors['text'] ?></h6>
+                <div class="social_box">
+                  <a href="<?php echo $ourDoctors['facebookLink'] ?>">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['twitterLink'] ?>">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['linkedinLink'] ?>">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="<?php echo $ourDoctors['instagramLink'] ?>">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+<?php
+}
+?> 
