@@ -60,3 +60,24 @@ function hospitalTreatment($variable) {
 <?php
 }
 ?>
+
+
+<?php 
+
+function testimonials_carousel($testimonial, $active=false) {
+?>
+    <div class="carousel-item <?php echo $active  ? 'active' : '';?>">
+        <div class="box">
+            <div class="client_info">
+                <div class="client_name">
+                    <h5><?php echo $testimonial['name']; ?></h5>
+                    <h6><?php echo $testimonial['subtitle']; ?></h6>
+                </div>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+            <p><?php echo $testimonial['comment']; ?></p>
+        </div>
+    </div>
+<?php
+}
+?>       
