@@ -38,3 +38,25 @@ function render_carousel($row, $active=false) {
 }
 ?>
 
+<!--HOSPITAL TREATMENT -->
+<?php
+
+function hospitalTreatment($variable) {
+    ?>
+    <div class="col-md-6 col-lg-3">
+            <div class="box ">
+                <div class="img-box">
+                    <img src="<?php echo $variable['image'] ?>" alt="">
+                </div>
+                <div class="detail-box">
+                    <h4><?php echo $variable['title'] ?></h4>
+                    <p><?php echo $variable['text'] ?></p>
+                    <a href="">
+                    <?php echo $variable['LinkText'] ?>
+                    </a>
+                </div>
+            </div>
+  </div>
+<?php
+}
+?>
