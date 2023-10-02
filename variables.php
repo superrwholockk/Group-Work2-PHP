@@ -70,6 +70,30 @@ $hospitalTreatmentSections = [
     
 ];
 
+//Testimonials section
+
+$testimonialSections = [
+
+    [
+        'name'  =>  ' Morijorch ',
+        'subtitle' =>  ' Default model text ',
+        'comment'  =>  "editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+    ],
+    
+    [
+        'name'     =>  'Rochak',
+        'subtitle' =>  'Default model text',
+        'comment'  =>  "Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+    ] ,
+
+    [
+        'name'     =>  'Brad Johns',
+        'subtitle' =>  'Default model text',
+        'comment'  => " variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy, editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various" 
+    ] 
+    
+];
+
 //our doctors section
 
 
